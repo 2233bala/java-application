@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the source code from your version control system
+                // Checkout the source code from your version control systems
                 // For example, using Git: 
                 git 'https://github.com/architectdevops7/java-application.git'
             }
